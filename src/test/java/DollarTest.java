@@ -1,5 +1,4 @@
-import static org.junit.jupiter.api.Assertions.assertEquals; // import para assertEquals
-
+import static org.junit.jupiter.api.Assertions.assertEquals;
 import org.example.Dollar;
 import org.junit.jupiter.api.Test;
 
@@ -9,7 +8,7 @@ public class DollarTest {
 
 
     @Test
-    public void testMultiplicaction() {
+    public void testMultiplication() {
 
         Dollar five = new Dollar(5);
         five.times(2);
